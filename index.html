@@ -2,11 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <script type="text/javascript" src="quotes.js"></script>
+    <script type="text/javascript" src="main_script.js"></script>
     <title>Phrase of the day</title>
   </head>
-  <body>
-    <article id="dailyPhrase">
-
-    </article>
+  <body onload="displayPhrase">
+    <article id="dailyPhrase"></article>
   </body>
+  <script type="text/javascript">
+    displayPhrase();
+  </script>
 </html>
